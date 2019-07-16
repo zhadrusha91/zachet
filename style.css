@@ -1,0 +1,2086 @@
+@font-face {
+    font-family: Raleway;
+    /* Имя шрифта */
+    src: url(../fonts/Raleway-Regular.ttf);
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+    src: url(../fonts/Raleway-SemiBold.ttf);
+    src: url(../fonts/Raleway-Bold.ttf);
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    /* Имя шрифта */
+    src: url(../fonts/Roboto-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: Montserrat;
+    /* Имя шрифта */
+    src: url(../fonts/Raleway-Regular.ttf);
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+
+body {
+    margin: 0 auto;
+    width: 1920px;
+
+}
+
+header {
+    
+    height: 1024px;
+    background-image: url(../img/photo.png);
+    background-color: rgba(39, 39, 39, 0.8);
+    background-color: #272727;
+    background-blend-mode: multiply;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(140, 140, 140);
+}
+
+}
+.menu {
+    padding: 0 370px 0 374px;
+    padding-top: 54px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.logo {
+    width: 181px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo span {
+    /* Style for "Waxom" */
+    width: 115px;
+    height: 26px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 34px;
+    font-weight: 400;
+    /* Text style for "Waxom" */
+    letter-spacing: -1.36px;
+}
+
+.logo svg {
+    fill: white;
+}
+
+.logo:hover svg {
+    fill: #242959;
+}
+
+.logo:hover span {
+    color: #242959;
+}
+
+.logo:active svg {
+    fill: #815D32;
+}
+
+.logo:active span {
+    color: #815D32;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 750px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    display: inline-block;
+    /* Style for "Home" */
+
+    height: 10px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 20px;
+}
+
+nav ul li:hover {
+    /* Style for "About Us" */
+
+    height: 11px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.icon {
+    fill: white;
+    margin: 13px 28px 0 30px;
+}
+
+.search {
+    fill: white;
+    margin: 13px 0 0 0;
+}
+
+.slider {
+    width: 1540px;
+    height: 560px;
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 300px;
+
+}
+
+.slide {
+    width: 1540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-content {
+    width: 1540px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 100px 0 100px;
+}
+
+.sl-span {
+    display: block;
+    height: 34px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.sl-span2 {
+    display: block;
+    height: 50px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 19px;
+}
+
+.slide-content p {
+    /* Style for "Nam liber" */
+    width: 500px;
+    height: 39px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 52px;
+}
+
+.slide-button {
+    /* Style for "Get Starte" */
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    margin-bottom: 250px;
+
+}
+
+.slide-button:hover {
+    /* Style for "Get Starte" */
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #111111;
+
+}
+
+.slide-button:active {
+    /* Style for "Get Starte" */
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #242959;
+    margin-bottom: 250px;
+}
+
+.arrow {
+    margin-bottom: 340px;
+    width: 40px;
+    height: 70px;
+    background-color: transparent;
+    background-image: url(../img/left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: medium none;
+}
+
+.arrow2 {
+    margin-bottom: 340px;
+    width: 40px;
+    height: 70px;
+    background-color: transparent;
+    background-image: url(../img/right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: medium none;
+}
+
+.radio {
+    text-align: center;
+}
+
+.properties {
+    padding: 80px 344px 0 346px;
+    margin: 0 auto;
+    
+
+}
+
+.properties-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1266px
+}
+
+.propert {
+    width: 266px;
+    height: 180px;
+    margin: 16px 15px 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.propert:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    margin: 0 auto;
+}
+
+.propert:hover:after {
+    background-color: #c7b299;
+    ;
+}
+
+.propert:hover svg {
+    fill: #c7b299;
+}
+
+.propert:hover .figspan {
+    color: #c7b299;
+}
+
+.figspan {
+    /* Style for "Web & App" */
+    display: block;
+    width: 195px;
+    height: 21px;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.fig-p {
+    /* Style for "Nam liber" */
+    width: 266px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+}
+
+.properties-2 {
+    width: 1230px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 0 0 0;
+    margin-right: 0;
+
+}
+
+.properties-2 span {
+    /* Style for "Waxom is R" */
+    width: 500px;
+    height: 28px;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: bolder;
+    display: block;
+}
+
+.properties-2 p {
+    /* Style for "Investigat" */
+    width: 757px;
+    height: 43px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 24px 0px 40px 0px;
+    text-align: center;
+}
+
+.properties-2-bg-img {
+    width: 1230px;
+    min-height: 482px;
+    background-image: url(../img/browser-center.png),
+        url(../img/browser-left.png),
+        url(../img/browser-right.png);
+    background-repeat: no-repeat;
+    background-size: 770px 482px, 770px 400px, 770px 400px;
+    background-position: bottom center, bottom left, bottom right;
+}
+
+aside {
+    /* Style for "Background" */
+    height: 150px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+    padding: 48px 30px 50px 374px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+aside h3 {
+    /* Style for "Waxom Mult" */
+    width: 530px;
+    height: 27px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+
+aside span {
+    width: 530px;
+    height: 27px;
+    color: #c7b299;
+    font-family: Raleway;
+    font-size: 28px;
+    font-weight: 400;
+    margin-right: 7px;
+
+}
+
+aside p {
+    /* Style for "Don't Forg" */
+    width: 465px;
+    height: 18px;
+    color: #615855;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 8px 0 0 0;
+}
+
+.aside-button {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    margin-top: 50px;
+}
+
+.aside-button:hover {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #111111;
+
+}
+
+.aside-button:active {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #1A2543;
+}
+
+.our {
+    padding: 80px 364px 80px 364px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text {}
+
+.text span {
+    /* Style for "Our Latest" */
+    width: 1232px;
+    height: 28px;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: bolder;
+    display: block;
+    text-align: center
+}
+
+.text p {
+    /* Style for "Investigat" */
+    width: 757px;
+    height: 43px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 207px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+}
+
+.tabs1,
+.tabs2,
+.tabs3,
+.tabs4,
+.tabs5 {
+    padding: 10px 25px 11px 25px;
+    margin-right: 10px;
+    border-radius: 3px;
+    border: 1px solid #ebebeb;
+    background-color: white;
+    /* Style for "Web Design" */
+
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    align-items: center;
+}
+
+.tabs1:hover {
+    background-color: #998675;
+    /* Style for "All" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.tabs2:hover {
+    background-color: #998675;
+    /* Style for "All" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.tabs3:hover {
+    background-color: #998675;
+    /* Style for "All" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.tabs4:hover {
+    background-color: #998675;
+    /* Style for "All" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.tabs5:hover {
+    background-color: #998675;
+    /* Style for "All" */
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.tab-cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1300px;
+
+}
+
+.tab-cards1 img,
+.tab-cards2 img,
+.tab-cards3 img,
+.tab-cards4 img,
+.tab-cards5 img,
+.tab-cards6 img {
+    margin-bottom: 20px;
+}
+
+.tab-cards1 {
+    width: 370px;
+    height: 337px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #fbfaf8
+}
+
+.tabcardlink {
+    position: absolute;
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 144px;
+    display: none;
+}
+
+.tabcardlink2 {
+    position: absolute;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 198px;
+    display: none;
+}
+
+.tab-cards1:hover .tabcardlink {
+    position: absolute;
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 144px;
+    display: block;
+}
+
+.tab-cards1:hover .tabcardlink2 {
+    position: absolute;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 198px;
+    display: block;
+}
+
+.tab-cards2:hover .tabcardlink {
+    position: absolute;
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 144px;
+    display: block;
+}
+
+.tab-cards2:hover .tabcardlink2 {
+    position: absolute;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 198px;
+    display: block;
+}
+
+.tab-cards3:hover .tabcardlink {
+    position: absolute;
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 144px;
+    display: block;
+}
+
+.tab-cards3:hover .tabcardlink2 {
+    position: absolute;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 198px;
+    display: block;
+}
+
+.tab-cards4:hover .tabcardlink {
+    position: absolute;
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 144px;
+    display: block;
+}
+
+.tab-cards4:hover .tabcardlink2 {
+    position: absolute;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 198px;
+    display: block;
+}
+
+.tab-cards5:hover .tabcardlink {
+    position: absolute;
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 144px;
+    display: block;
+}
+
+.tab-cards5:hover .tabcardlink2 {
+    position: absolute;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 198px;
+    display: block;
+}
+
+.tab-cards6:hover .tabcardlink {
+    position: absolute;
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 144px;
+    display: block;
+}
+
+.tab-cards6:hover .tabcardlink2 {
+    position: absolute;
+    background-image: url(../img/lupa.png);
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 26px;
+    top: 106px;
+    left: 198px;
+    display: block;
+}
+
+.tab-cards1:hover {
+    background-color: #362f2d;
+}
+
+.tab-cards2:hover {
+    background-color: #362f2d;
+}
+
+.tab-cards3:hover {
+    background-color: #362f2d;
+}
+
+.tab-cards4:hover {
+    background-color: #362f2d;
+}
+
+.tab-cards5:hover {
+    background-color: #362f2d;
+}
+
+.tab-cards6:hover {
+    background-color: #362f2d;
+}
+
+.tab-cards1:hover span {
+    /* Style for "Quam Nutam" */
+    width: 211px;
+    height: 15px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tab-cards2:hover span {
+    /* Style for "Quam Nutam" */
+    width: 211px;
+    height: 15px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tab-cards3:hover span {
+    /* Style for "Quam Nutam" */
+    width: 211px;
+    height: 15px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tab-cards4:hover span {
+    /* Style for "Quam Nutam" */
+    width: 211px;
+    height: 15px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tab-cards5:hover span {
+    /* Style for "Quam Nutam" */
+    width: 211px;
+    height: 15px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tab-cards6:hover span {
+    /* Style for "Quam Nutam" */
+    width: 211px;
+    height: 15px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.tab-cards1:hover p {
+    width: 175px;
+    height: 14px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tab-cards2:hover p {
+    width: 175px;
+    height: 14px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tab-cards3:hover p {
+    width: 175px;
+    height: 14px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tab-cards4:hover p {
+    width: 175px;
+    height: 14px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tab-cards5:hover p {
+    width: 175px;
+    height: 14px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tab-cards6:hover p {
+    width: 175px;
+    height: 14px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.tab-cards1:hover img {
+    background: black;
+    opacity: 0.3;
+}
+
+.tab-cards2:hover img {
+    background: black;
+    opacity: 0.3;
+}
+
+.tab-cards3:hover img {
+    background: black;
+    opacity: 0.3;
+}
+
+.tab-cards4:hover img {
+    background: black;
+    opacity: 0.3;
+}
+
+.tab-cards5:hover img {
+    background: black;
+    opacity: 0.3;
+}
+
+.tab-cards6:hover img {
+    background: black;
+    opacity: 0.3;
+}
+
+
+.tab-cards1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+.tab-cards1:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 175px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid #362f2d;
+}
+
+.tab-cards2:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid #362f2d;
+}
+
+.tab-cards3:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid #362f2d;
+}
+
+.tab-cards4:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid #362f2d;
+}
+
+.tab-cards5:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid #362f2d;
+}
+
+.tab-cards6:hover:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid #362f2d;
+}
+
+.tab-cards2 {
+    width: 370px;
+    height: 337px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #fbfaf8
+}
+
+.tab-cards2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+.tab-cards3 {
+    width: 370px;
+    height: 337px;
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #fbfaf8
+}
+
+.tab-cards3:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+.tab-cards4 {
+    width: 370px;
+    height: 337px;
+    margin-right: 30px;
+    position: relative;
+    background-color: #fbfaf8
+}
+
+.tab-cards4:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+.tab-cards5 {
+    width: 370px;
+    height: 337px;
+    margin-right: 30px;
+    position: relative;
+    background-color: #fbfaf8
+}
+
+.tab-cards5:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+.tab-cards6 {
+    width: 370px;
+    height: 337px;
+    position: relative;
+    background-color: #fbfaf8
+}
+
+.tab-cards6:after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 18px;
+    border: 20px solid transparent;
+    border-bottom: 15px solid white;
+}
+
+.tab-cards1 span,
+.tab-cards2 span,
+.tab-cards3 span,
+.tab-cards4 span {
+    width: 229px;
+    height: 15px;
+    color: #c7b299;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 28px;
+}
+
+.tab-cards5 span {
+    width: 229px;
+    height: 15px;
+    color: #c7b299;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 28px;
+}
+
+.tab-cards6 span {
+    width: 229px;
+    height: 15px;
+    color: #c7b299;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 28px;
+}
+
+.tab-cards1 p,
+.tab-cards2 p,
+.tab-cards3 p,
+.tab-cards4 p,
+.tab-cards5 p,
+.tab-cards6 p {
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-left: 28px;
+}
+
+.our-button {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #998675;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.our-button:hover {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #111111;
+}
+
+.our-button:active {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 23px;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 170px;
+    height: 53px;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    background-color: #1A2543;
+}
+
+.video-div {
+    height: 705px;
+    background-color: rgba(45, 45, 45, 0.8);
+    background-blend-mode: multiply;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.video-txt {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-txt a:hover {
+    transform: scale(1.1);
+}
+
+.video-txt span {
+    /* Style for "Waxom Vide" */
+    width: 382px;
+    height: 22px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 44px;
+}
+
+.video-txt p {
+    /* Style for "Investigat" */
+    width: 552px;
+    height: 43px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-top: 28px;
+    margin-bottom: 40px;
+}
+
+.video-txt .time {
+    /* Style for "03:26" */
+    width: 36px;
+    height: 10px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.excellent {
+    margin: 79px 389px 0 423px;
+    display: flex;
+}
+
+.ex-text {
+    padding: 116px 0 0 31px;
+}
+
+.ex-text span {
+    width: 407px;
+    height: 22px;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.ex-text p {
+    /* Style for "Qisi enim" */
+    width: 657px;
+    height: 99px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.ex-text ul {
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    list-style-type: none;
+    list-style-image: url(../img/03.png);
+    margin-top: 45px;
+
+}
+
+.numbers {
+    height: 300px;
+    background-color: #f4f5f8;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.numbercard svg {
+    padding: 0;
+    fill: #c7b299;
+    margin-bottom: 30px;
+}
+
+.numbercard {
+    width: 145px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbercard:after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #f1eee9;
+    margin: 0 auto;
+
+}
+
+.numbercard:nth-child(1),
+.numbercard:nth-child(2),
+.numbercard:nth-child(3),
+.numbercard:nth-child(4) {
+    margin-right: 100px
+}
+
+.numbercard span {
+    /* Style for "3587" */
+    width: 105px;
+    height: 34px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 48px;
+    font-weight: lighter;
+    line-height: 36px;
+    text-align: center;
+
+}
+
+.numbercard p {
+    /* Style for "Satisfied" */
+
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.recentposts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 82px 374px 80px 372px;
+}
+
+.recentposts span {
+    /* Style for "Recent Pos" */
+    height: 21px;
+    color: #555555;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.recentposts p {
+    /* Style for "Investigat" */
+    width: 757px;
+    height: 43px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+
+}
+
+.recentbloks {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.rblock1 {
+    width: 370px;
+    margin-right: 30px;
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 33px;
+}
+
+.rblock1:hover {
+    background-color: #362f2d;
+}
+
+.rblock1:hover .rbspan {
+    /* Style for "Lorem ipsu" */
+    width: 257px;
+    height: 19px;
+    color: #c7b299;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.rblock1:hover .dt1 {
+    /* Style for "bg" */
+    width: 50px;
+    height: 35px;
+    border-radius: 3px 3px 0 0;
+    background-color: #c7b299;
+}
+
+.rblock1:hover .dt2 {
+    /* Style for "bg" */
+    width: 50px;
+    height: 25px;
+    border-radius: 0 0 3px 3px;
+    background-color: #a48d72;
+
+}
+
+.rblock1:hover .rbp {
+    /* Style for "Claritas e" */
+    width: 297px;
+    height: 36px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.rblock1 img {
+    margin-bottom: 30px;
+}
+
+rblock1 img:hover {
+    filter: opacity(10);
+    background: black;
+
+}
+
+.datecalendare {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.dt1 {
+    /* Style for "bg" */
+    width: 50px;
+    height: 35px;
+    border-radius: 3px 3px 0 0;
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dt1 span {
+    /* Style for "30" */
+    width: 29px;
+    height: 17px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.dt2 {
+    /* Style for "bg" */
+    width: 50px;
+    height: 25px;
+    border-radius: 0 0 3px 3px;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dt2 span {
+    /* Style for "Sep." */
+    width: 23px;
+    height: 12px;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.radioinput {
+    width: 120px;
+    height: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 134px;
+    top: 185px;
+}
+
+
+
+.rblock1 .rbspan {
+    color: #555555;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 29px;
+
+}
+
+.rblock1 .rbp {
+    /* Style for "Claritas e" */
+    width: 297px;
+    height: 36px;
+    color: #8c8c8c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding-left: 29px;
+}
+
+.rblock1 a {
+    text-decoration: none;
+    /* Style for "Read More" */
+    width: 74px;
+    height: 11px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-left: 29px;
+    position: relative;
+}
+
+.rblock1 a:after {
+    content: "";
+    display: block;
+    border: 5px solid transparent;
+    border-left: 8px solid #c7b299;
+    top: 3px;
+    left: 120px;
+    position: absolute;
+}
+
+.arrowbut {
+    width: 52px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.arrowbut svg {
+    fill: #d1d1d1;
+}
+
+.arrowbut svg:hover {
+    fill: #c7b299;
+}
+
+.clientdiv {
+    height: 489px;
+    background-image: url(../img/clients.png);
+    background-repeat: no-repeat;
+    background-color: rgba(45, 45, 45, 0.8);
+    background-color: #272727;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clientlogo1,
+.clientlogo2,
+.clientlogo3 {
+    margin-right: 90px;
+}
+
+.clientlogo1:hover {
+    transform: scale(1.2);
+}
+
+.clientlogo2:hover {
+    transform: scale(1.2);
+}
+
+.clientlogo3:hover {
+    transform: scale(1.2);
+}
+
+.clientlogo4:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    height: 508px;
+    background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footerdiv {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footerdiv1,
+.footerdiv2,
+.footerdiv3 {
+    margin-right: 30px;
+    height: 300px
+}
+
+.footerdiv1,
+.footerdiv2,
+.footerdiv3,
+.footerdiv4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerdiv1 p {
+    /* Style for "Lorem ipsu" */
+    width: 258px;
+    height: 155px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.footerdiv1 a {
+    text-decoration: none;
+    width: 80px;
+    height: 11px;
+    color: #d1d1d1;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+
+
+
+footer .recent {
+    /* Style for "Recent Pos" */
+    width: 150px;
+    height: 17px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 33px;
+    display: block;
+}
+
+.footerdiv2 .footerdate {
+    /* Style for "September" */
+    width: 117px;
+    height: 11px;
+    color: #363636;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 0;
+}
+
+.footerdiv2-p1 {
+    /* Style for "Lorem ipsu" */
+    width: 250px;
+    height: 34px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #252525;
+    ;
+}
+
+.diemdate {
+    width: 117px;
+    height: 11px;
+    color: #ffffff;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footerdiv2 .diem {
+    /* Style for "Diam nonum" */
+    width: 260px;
+    height: 34px;
+    color: #c7b299;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-bottom: 21px;
+    border-bottom: 1px solid #252525
+}
+
+
+
+.footerdiv2 .ciat {
+    /* Style for "Claritas e" */
+    width: 262px;
+    height: 54px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footerdiv3 h4 {
+    /* Style for "Our Twitte" */
+    width: 131px;
+    height: 18px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footerdiv3 .time {
+    /* Style for "20 days ag" */
+    width: 75px;
+    height: 11px;
+    color: #363636;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footerdiv3 .p1 {
+    /* Style for "@waxom Cum" */
+    width: 270px;
+    height: 34px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+
+}
+
+.footerdiv3 .p2 {
+    /* Style for "Mirum est" */
+    width: 267px;
+    height: 54px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footerdiv3 .p3 {
+    /* Style for "Soluta nob" */
+    width: 260px;
+    height: 15px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.footerdiv3 a {
+    text-decoration: none;
+    color: #959595;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.bluespan {
+    width: 65px;
+    height: 34px;
+    color: #00bff3;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+
+
+}
+
+.footerdiv4 h4 {
+    /* Style for "Dribbble W" */
+    width: 250px;
+    height: 23px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.footerwidgetimg {
+    display: flex;
+    flex-wrap: wrap;
+    width: 270px;
+}
+
+.fimg1 {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.fimg3 {
+    margin-right: 10px;
+}
+
+.copyright {
+    width: 1920px;
+    height: 111px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.copyright1 {
+    margin-left: 374px;
+}
+
+.copyright1 span {
+    width: 401px;
+    height: 14px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #555555;
+}
+
+.copyright1 a {
+    width: 40px;
+    height: 14px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    /* Text style for "Waxom" */
+    color: #959595;
+    text-decoration: none;
+}
+.copyright2{
+    margin-right: 376px;
+}
+.copyright2 span{
+    /* Style for "Designed b" */
+width: 320px;
+height: 14px;
+color: #959595;
+font-family: Montserrat;
+font-size: 13px;
+font-weight: 300;
+line-height: 20px;
+/* Text style for "Designed b" */
+color: #555555;
+}
+
+
+/* ============ Mobile version=========== */
+
+@media (max-device-width: 1920px){
+    input[type="checkbox"]{
+        display: none;
+    }
+}
+@media (max-device-width : 320px){
+    
+    header{
+        height: 200px;
+        width: 680px;
+        
+    }
+    label {
+    display: block;
+    width: 100px;
+    height: 50px;
+    border: 1px solid green;
+    background-image:  url('https://www.freeiconspng.com/uploads/menu-icon-18.png');
+    background-size: 40px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+    input[type="checkbox"]{
+        display: none;
+    }
+input[type="checkbox"]:checked ~ nav {
+  visibility: visible;
+}  
+    .menu{
+      justify-content: space-between;
+      width: 600px;
+      flex-wrap: wrap; 
+        position: relative;
+    }  
+  nav {
+    visibility: hidden;
+    margin: 0 auto;
+    height: auto;
+    width: 300px;
+      position: absolute;
+      z-index: 3;
+      background-color: brown;
+    
+    }
+    
+    nav ul{
+    flex-direction: column;
+      }  
+  
+  .menu li {
+    height: 40px;
+    text-align: center;
+    margin-top: 2px;
+    
+  }
+    .slider{
+        display: none;
+    }
+    .icon{
+        display: none;
+    }
+    .search{
+        display: none;
+    }
+    .properties{
+        width: 680px;
+        padding: 0;
+        margin: 0
+    }
+    .properties1{
+        width: 600px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    
+    .propert {
+        width: 300px;}
+    
+    .propert svg{
+        width: 60px
+    }
+    .properties-2{
+        width: 680px;
+    }
+    .properties-2-bg-img{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    .our{
+        display: none;
+    }
+    .video-div{
+        width: 680px;
+    }
+    .excellent{
+        width: 680px;
+        margin: 0 0 0 0px;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    }
+    .numbers{
+        width: 680px;
+        flex-wrap: wrap;
+        height: 450px;
+        justify-content: center;
+        align-items: center;
+    }
+    .recentposts{
+        width: 680px;
+        padding: 10px 0 10px 0;
+    }
+    .arrowbut{
+        display: none;
+    }
+    .recentbloks{
+        flex-direction: column;
+    }
+    .clientdiv{
+        width: 680px;
+        flex-wrap: wrap;
+    }
+    footer{
+        display: none;
+    }
+    .copyright{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 680px;
+        
+    }
+}
